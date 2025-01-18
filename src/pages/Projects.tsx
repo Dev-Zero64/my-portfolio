@@ -8,20 +8,6 @@ const projects = [
     link: "https:embaixadarochaviva.com.br",
     tags: ["React", "Node.js", "Tailwind", "Material-UI"],
   },
-  /*{
-    title: "Em breve",
-    description: "Estou trabalhando em um novo projeto para adicionar aqui logo logo.",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
-    link: "#",
-    tags: ["React", "Firebase", "Material-UI"],
-  },
-  {
-    title: "Portfolio Website",
-    description: "Meu website responsivo para apresentação de projetos e informações profissionais.",
-    image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334",
-    link: "#",
-    tags: ["React", "Tailwind CSS", "Framer Motion"],
-  },*/
 ];
 
 const Projects = () => {
