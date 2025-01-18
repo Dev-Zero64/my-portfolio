@@ -15,7 +15,7 @@ const Index = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                Olá, eu sou um{" "}
+                Olá, me chamo Rafael Raniere de Oliveira e sou {" "}
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   Desenvolvedor Full Stack
                 </span>
@@ -38,7 +38,7 @@ const Index = () => {
             >
               <div className="aspect-square rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+                  src="/public/images/eu2.jpg"
                   alt="Developer"
                   className="w-full h-full object-cover"
                 />

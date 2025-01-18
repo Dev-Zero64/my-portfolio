@@ -2,26 +2,26 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "Uma plataforma completa de e-commerce com carrinho de compras, pagamentos e painel administrativo.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    link: "#",
-    tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
+    title: "Igreja Embaixada da Rocha Viva",
+    description: "Website responsivo com interface moderna e minimalista, intuitivo e facil de navegar, criado para uma instituição religiosa, essa pagina web permite que os fieis e interessados nesta instituição possam conhecer a programação e se atualizar com as noticias mais recentes do ministerio, alem de ter mais informações sobre os cultos de jovens e de crianças.",
+    image: "/public/images/rochaviva.png",
+    link: "https:embaixadarochaviva.com.br",
+    tags: ["React", "Node.js", "Tailwind", "Material-UI"],
   },
-  {
-    title: "Task Management App",
-    description: "Aplicativo de gerenciamento de tarefas com recursos de colaboração em tempo real.",
+  /*{
+    title: "Em breve",
+    description: "Estou trabalhando em um novo projeto para adicionar aqui logo logo.",
     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
     link: "#",
     tags: ["React", "Firebase", "Material-UI"],
   },
   {
     title: "Portfolio Website",
-    description: "Website responsivo para apresentação de projetos e informações profissionais.",
+    description: "Meu website responsivo para apresentação de projetos e informações profissionais.",
     image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334",
     link: "#",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
-  },
+  },*/
 ];
 
 const Projects = () => {

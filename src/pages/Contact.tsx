@@ -25,19 +25,19 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <Mail className="w-6 h-6 text-blue-600" />
-                <span>seu.email@exemplo.com</span>
+                <span>rafaelraniere94@gmail.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="w-6 h-6 text-blue-600" />
-                <span>(00) 12345-6789</span>
+                <span>(61) 98135-3423</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="w-6 h-6 text-blue-600" />
-                <span>São Paulo, SP</span>
+                <span>Goiânia, GO</span>
               </div>
               <div className="flex space-x-4 pt-4">
                 <a
-                  href="#"
+                  href="https://github.com/Dev-Zero64"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
@@ -45,7 +45,7 @@ const Contact = () => {
                   <Github className="w-6 h-6" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/rafael-oliveira-b8b131347/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
