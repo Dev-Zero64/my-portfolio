@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Igreja Embaixada da Rocha Viva",
     description: "Website responsivo com interface moderna e minimalista, intuitivo e facil de navegar, criado para uma instituição religiosa, essa pagina web permite que os fieis e interessados nesta instituição possam conhecer a programação e se atualizar com as noticias mais recentes do ministerio, alem de ter mais informações sobre os cultos de jovens e de crianças.",
-    image: "/public/images/rochaviva.png",
+    image: "https://embaixadarochaviva.com.br/images/outside.png",
     link: "https:embaixadarochaviva.com.br",
     tags: ["React", "Node.js", "Tailwind", "Material-UI"],
   },

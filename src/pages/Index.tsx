@@ -4,7 +4,7 @@ import TechStack from "@/components/TechStack";
 const Index = () => {
 
   const images = [
-    "/public/images/eu2.jpg",
+    "https://media.licdn.com/dms/image/v2/D4E03AQFc3XKffXEZLg/profile-displayphoto-shrink_800_800/B4EZRxfXhOHAAc-/0/1737070836241?e=1742428800&v=beta&t=zn1sQvdk3fTvZemjdl9LE0NsppRm72WfWIXNf99jAHM",
   ];
 
   return (
