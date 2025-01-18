@@ -2,6 +2,11 @@ import { motion } from "framer-motion";
 import TechStack from "@/components/TechStack";
 
 const Index = () => {
+
+  const images = [
+    "/public/images/eu2.jpg",
+  ];
+
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
@@ -38,7 +43,7 @@ const Index = () => {
             >
               <div className="aspect-square rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img
-                  src="/public/images/eu2.jpg"
+                  src={images[0]}
                   alt="Developer"
                   className="w-full h-full object-cover"
                 />
