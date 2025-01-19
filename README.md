@@ -36,11 +36,11 @@ Este é um projeto de portfólio pessoal desenvolvido com React, TypeScript e Vi
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/techie-showcase-hub.git
+    git clone https://github.com/seu-usuario/my-portfolio.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
-    cd techie-showcase-hub
+    cd my-portfolio
     ```
 3. Instale as dependências:
     ```sh
