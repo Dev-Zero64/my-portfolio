@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface ProjectCardProps {
   title: string;
@@ -31,12 +32,12 @@ const ProjectCard = ({ title, description, image, link, tags }: ProjectCardProps
             </span>
           ))}
         </div>
-        <button
-          onClick={() => window.open(link, "_blank")}
+        <Link
+          to={link}
           className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
         >
           Ver projeto <ExternalLink size={16} />
-        </button>
+        </Link>
       </div>
     </div>
   );
