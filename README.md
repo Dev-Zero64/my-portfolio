@@ -1,69 +1,60 @@
-# Welcome to your Lovable project
+# Meu portfolio
 
-## Project info
+## Descrição
 
-**URL**: https://lovable.dev/projects/8902675c-1ded-4f65-b6eb-ba9506a0b0c6
+Este é um projeto de portfólio pessoal desenvolvido com React, TypeScript e Vite. Ele apresenta uma interface moderna e responsiva para exibir informações sobre o desenvolvedor, seus projetos e formas de contato.
 
-## How can I edit this code?
+## Tecnologias Utilizadas
 
-There are several ways of editing your application.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **Vite**: Ferramenta de build rápida e moderna.
+- **Tailwind CSS**: Framework de CSS utilitário para estilização rápida.
+- **Radix UI**: Componentes acessíveis e descomplicados para React.
+- **Framer Motion**: Biblioteca para animações.
+- **React Hook Form**: Biblioteca para gerenciamento de formulários.
+- **React Query**: Biblioteca para gerenciamento de estado assíncrono.
+- **Lucide Icons**: Conjunto de ícones.
 
-**Use Lovable**
+## Estrutura do Projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8902675c-1ded-4f65-b6eb-ba9506a0b0c6) and start prompting.
+- **src/components**: Contém os componentes reutilizáveis da interface.
+- **src/pages**: Contém as páginas principais do projeto.
+- **src/hooks**: Contém hooks personalizados.
+- **src/lib**: Contém utilitários e funções auxiliares.
+- **src/styles**: Contém os arquivos de estilo.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Scripts Disponíveis
 
-**Use your preferred IDE**
+- `dev`: Inicia o servidor de desenvolvimento.
+- `build`: Cria a build de produção.
+- `build:dev`: Cria a build de desenvolvimento.
+- `lint`: Executa o linter para verificar problemas no código.
+- `preview`: Inicia o servidor para pré-visualizar a build de produção.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Como Executar o Projeto
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/seu-usuario/techie-showcase-hub.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd techie-showcase-hub
+    ```
+3. Instale as dependências:
+    ```sh
+    npm install
+    ```
+4. Inicie o servidor de desenvolvimento:
+    ```sh
+    npm run dev
+    ```
 
-Follow these steps:
+## Contato
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Para mais informações, entre em contato através do [e-mail](mailto:rafaelraniere94@gmail.com) ou visite meu [LinkedIn](https://www.linkedin.com/in/seu-usuario).
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Licença
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8902675c-1ded-4f65-b6eb-ba9506a0b0c6) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
