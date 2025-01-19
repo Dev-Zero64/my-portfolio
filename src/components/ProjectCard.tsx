@@ -31,14 +31,12 @@ const ProjectCard = ({ title, description, image, link, tags }: ProjectCardProps
             </span>
           ))}
         </div>
-        <a
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={() => window.open(link, "_blank")}
           className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
         >
           Ver projeto <ExternalLink size={16} />
-        </a>
+        </button>
       </div>
     </div>
   );
