@@ -10,7 +10,7 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "Projetos", href: "/projects" },
     { name: "Contato", href: "/contact" },
-    { name: "Sobre", href: "https://embaixadarochaviva.com.br" },
+    { name: "Sobre", href: "/about" },
   ];
 
   return (
