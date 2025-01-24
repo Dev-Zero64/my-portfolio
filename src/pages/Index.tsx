@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import TechStack from "@/components/TechStack";
 import { ArrowDown, Github, Linkedin } from "lucide-react";
 
@@ -48,13 +49,13 @@ const Index = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
               >
-                <a
-                  href="/projects"
+                <Link
+                  to="/projects"
                   className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
                 >
                   Ver Projetos
                   <ArrowDown className="w-4 h-4" />
-                </a>
+                </Link>
                 <div className="flex gap-2">
                   <a
                     href="https://github.com/Dev-Zero64"
@@ -85,7 +86,7 @@ const Index = () => {
               <div className="relative aspect-square rounded-full overflow-hidden shadow-xl border-4 border-white">
                 <img
                   src={images[0]}
-                  alt="Rafael Raniere de Oliveira"
+                  alt="Rafael Oliveira"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0" />

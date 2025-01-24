@@ -32,7 +32,7 @@ const Projects = () => {
         >
           <div className="max-w-3xl mb-16">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent mb-4">
-              Meus projetos recentes
+              Meu portfólio criativo
             </h1>
             <p className="text-lg text-gray-600">
               Projetos selecionados que demonstram minha expertise em desenvolvimento full-stack e design de interfaces
@@ -103,7 +103,8 @@ const Projects = () => {
           >
             <p className="text-gray-600 mb-6">Interessado em ver mais trabalhos?</p>
             <a
-              href="#contact"
+              href="https://wa.me/5561981353423?text="
+              target="_blank"
               className="inline-flex items-center px-8 py-3.5 bg-blue-600 text-white rounded-full text-lg font-medium hover:bg-blue-700 transition-colors"
             >
               Vamos conversar
