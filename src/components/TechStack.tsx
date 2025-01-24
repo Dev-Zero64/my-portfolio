@@ -31,7 +31,7 @@ const TechStack = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Stack Tecnológico
+          Minha Stack
         </motion.h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
