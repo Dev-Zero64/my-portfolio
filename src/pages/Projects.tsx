@@ -1,25 +1,116 @@
+import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
+import { ArrowRight, Github } from "lucide-react";
 
 const projects = [
   {
     title: "Igreja Embaixada da Rocha Viva",
-    description: "Website responsivo com interface moderna e minimalista, intuitivo e facil de navegar, criado para uma instituição religiosa, essa pagina web permite que os fieis e interessados nesta instituição possam conhecer a programação e se atualizar com as noticias mais recentes do ministerio, alem de ter mais informações sobre os cultos de jovens e de crianças.",
-    image: "https://embaixadarochaviva.com.br/images/outside.png",
+    description: "Website responsivo com interface moderna e minimalista desenvolvido para uma instituição religiosa, proporcionando aos fiéis acesso à programação, notícias atualizadas e informações sobre cultos específicos.",
+    image: "https://media.licdn.com/dms/image/v2/D4E22AQH5p3DA2Z9MXQ/feedshare-shrink_2048_1536/B4EZSZuCAGGYAo-/0/1737745772640?e=1740614400&v=beta&t=dKDgT-wYkalGMjqvvZ_fpQ2X1uwvd_lEf1uUaiLdaQ4",
     link: "https://embaixadarochaviva.com.br",
     tags: ["React", "Node.js", "Tailwind", "Material-UI"],
+    github: "#"
   },
+  {
+    title: "Vita Care Plano de Saúde",
+    description: "Plataforma digital moderna para gestão de planos de saúde, oferecendo interface intuitiva para usuários e administradores com funcionalidades completas de gerenciamento.",
+    image: "https://media.licdn.com/dms/image/v2/D4E22AQHiYBht04QLyA/feedshare-shrink_2048_1536/B4EZSZvUDUGYAo-/0/1737746106826?e=1740614400&v=beta&t=_BiBFUzyLZKabRnnLCMsMHgf0J3aW2j869sXql0xQKA",
+    link: "https://vitacare-convenio.vercel.app/",
+    tags: ["React", "Node.js", "Tailwind", "Material-UI"],
+    github: "#"
+  }
 ];
 
 const Projects = () => {
   return (
-    <div className="min-h-screen pt-24 pb-12">
+    <div className="min-h-screen pt-24 pb-12 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold mb-8">Meus Projetos</h1>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
-            <ProjectCard key={project.title} {...project} />
-          ))}
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <div className="max-w-3xl mb-16">
+            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent mb-4">
+              Meus projetos recentes
+            </h1>
+            <p className="text-lg text-gray-600">
+              Projetos selecionados que demonstram minha expertise em desenvolvimento full-stack e design de interfaces
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {projects.map((project, index) => (
+              <motion.div
+                key={project.title}
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <ProjectCard 
+                  {...project}
+                  className="group relative h-full bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  
+                  <div className="relative p-6 h-full flex flex-col justify-end">
+                    <div className="flex gap-2 mb-4">
+                      {project.tags.map(tag => (
+                        <span 
+                          key={tag}
+                          className="px-3 py-1 bg-white/10 backdrop-blur-sm text-sm text-white rounded-full"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+
+                    <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
+                    <p className="text-gray-200 mb-4">{project.description}</p>
+
+                    <div className="flex gap-4">
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-5 py-2.5 bg-white text-blue-600 rounded-full hover:bg-gray-100 transition-colors"
+                      >
+                        Ver Projeto
+                        <ArrowRight className="w-4 h-4" />
+                      </a>
+                      {project.github && (
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="p-2.5 bg-white/10 backdrop-blur-sm text-white rounded-full hover:bg-white/20 transition-colors"
+                        >
+                          <Github className="w-5 h-5" />
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                </ProjectCard>
+              </motion.div>
+            ))}
+          </div>
+
+          <motion.div
+            className="mt-16 text-center"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.4 }}
+          >
+            <p className="text-gray-600 mb-6">Interessado em ver mais trabalhos?</p>
+            <a
+              href="#contact"
+              className="inline-flex items-center px-8 py-3.5 bg-blue-600 text-white rounded-full text-lg font-medium hover:bg-blue-700 transition-colors"
+            >
+              Vamos conversar
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </a>
+          </motion.div>
+        </motion.div>
       </div>
     </div>
   );
