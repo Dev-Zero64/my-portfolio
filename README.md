@@ -36,7 +36,7 @@ Este é um projeto de portfólio pessoal desenvolvido com React, TypeScript e Vi
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/my-portfolio.git
+    git clone https://github.com/Dev-Zero64/my-portfolio.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
@@ -53,7 +53,7 @@ Este é um projeto de portfólio pessoal desenvolvido com React, TypeScript e Vi
 
 ## Contato
 
-Para mais informações, entre em contato através do [e-mail](mailto:rafaelraniere94@gmail.com) ou visite meu [LinkedIn](https://www.linkedin.com/in/seu-usuario).
+Para mais informações, entre em contato através do [e-mail](mailto:rafaelraniere94@gmail.com).
 
 ## Licença
 
