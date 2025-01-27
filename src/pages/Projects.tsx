@@ -18,7 +18,16 @@ const projects = [
     link: "https://vitacare-convenio.vercel.app/",
     tags: ["React", "Node.js", "Tailwind", "Material-UI"],
     github: "#"
-  }
+  },
+  {
+    title: "Tapioca das Pretas",
+    description: "Landing page e cardapio digital para um restaurante de tapiocas, com design moderno e responsivo, proporcionando uma experiência agradável para os clientes.",
+    image: "https://media.licdn.com/dms/image/v2/D4E22AQE_rOj-qQUkWw/feedshare-shrink_2048_1536/B4EZSmqAr7HcAs-/0/1737962820113?e=1740614400&v=beta&t=D3-RNbW95x1Pr1BIyU0g8wgAQF8WMh-mIvgFj52nE7A",
+    link: "https://tapioca-das-pretas.vercel.app/",
+    tags: ["React", "Node.js", "Tailwind",],
+    github: "#"
+  },
+
 ];
 
 const Projects = () => {
