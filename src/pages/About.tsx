@@ -116,8 +116,8 @@ const About = () => {
               <p className="text-gray-600 leading-relaxed">
                 Comecei minha carreira como entusiasta de tecnologia em 2020,
                 desenvolvendo pequenos projetos pessoais. Hoje, trabalho com
-                stacks modernas como <strong>React/Next.js</strong> no front-end
-                e <strong>Node.js/Express.js</strong> no back-end, sempre buscando
+                stacks modernas como <strong>React/Tailwind</strong> no front-end
+                e <strong>Ruby On Rails</strong> no back-end, sempre buscando
                 implementar as melhores práticas de desenvolvimento.
               </p>
               <p className="text-gray-600 leading-relaxed">
