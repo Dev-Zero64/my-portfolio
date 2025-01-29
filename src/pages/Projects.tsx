@@ -15,7 +15,7 @@ const projects = [
     title: "Vita Care Plano de Saúde",
     description: "Plataforma digital moderna para gestão de planos de saúde, oferecendo interface intuitiva para usuários e administradores com funcionalidades completas de gerenciamento.",
     image: "https://media.licdn.com/dms/image/v2/D4E22AQHiYBht04QLyA/feedshare-shrink_2048_1536/B4EZSZvUDUGYAo-/0/1737746106826?e=1740614400&v=beta&t=_BiBFUzyLZKabRnnLCMsMHgf0J3aW2j869sXql0xQKA",
-    link: "https://vitacare-convenio.vercel.app/",
+    link: "https://vitacaresaude.vercel.app/",
     tags: ["React", "Node.js", "Tailwind", "Material-UI"],
     github: "#"
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "Tapioca das Pretas",
     description: "Landing page e cardapio digital para um restaurante de tapiocas, com design moderno e responsivo, proporcionando uma experiência agradável para os clientes.",
     image: "https://media.licdn.com/dms/image/v2/D4E22AQE_rOj-qQUkWw/feedshare-shrink_2048_1536/B4EZSmqAr7HcAs-/0/1737962820113?e=1740614400&v=beta&t=D3-RNbW95x1Pr1BIyU0g8wgAQF8WMh-mIvgFj52nE7A",
-    link: "https://tapioca-das-pretas.vercel.app/",
+    link: "https://tapiocadaspretas.vercel.app/",
     tags: ["React", "Node.js", "Tailwind",],
     github: "#"
   },
