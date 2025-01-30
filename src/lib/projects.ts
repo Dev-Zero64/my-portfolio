@@ -62,7 +62,7 @@ export const projects = [
     title: "Game Manager",
     description:
       "Projeto de gerenciamento de produtos e usuários, desenvolvido utilizando React no frontend e Node.js com Express no backend. O banco de dados utilizado é o SQLite3.",
-    image: "images/gamemanager.png",
+    image: "images/node.jpg",
     link: "https://github.com/Dev-Zero64/game-manager",
     tags: ["React", "Node.js", "Tailwind", "SQLite3", "Express"],
     github: "#",
@@ -71,7 +71,7 @@ export const projects = [
     title: "Painel de Administrador Embaixada Rocha Viva",
     description:
       "Projeto Admin Panel Embaixada Rocha Viva, uma aplicação web construída com Ruby on Rails. Feito para ser utilizado somente pela equipe de marketing da igreja, para gerenciar conteúdos do site.",
-    image: "images/adminpanel.png",
+    image: "images/ruby.jpg",
     link: "https://github.com/Dev-Zero64/admin-panel-embaixadarochaviva",
     tags: ["Ruby on Rails", "Bootstrap", "PostgreSQL"],
     github: "#",
