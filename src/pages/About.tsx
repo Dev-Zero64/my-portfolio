@@ -38,9 +38,9 @@ const About = () => {
                 <span className="font-semibold text-blue-600">
                   Rafael Raniere de Oliveira
                 </span>
-                , Desenvolvedor Full Stack com {new Date().getFullYear() - 2020}
-                + anos transformando ideias em realidade digital. Especialista
-                em ecossistema JavaScript e arquiteturas escaláveis.
+                , Desenvolvedor Full Stack apaixonado por transformar ideias em
+                realidade digital. Especialista em ecossistema JavaScript, Ruby
+                on Rails e arquiteturas escaláveis.
               </motion.p>
             </motion.div>
 
@@ -114,11 +114,11 @@ const About = () => {
                 Minha Jornada
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                Comecei minha carreira como entusiasta de tecnologia em 2020,
+                Comecei minha carreira como entusiasta de tecnologia em 2022,
                 desenvolvendo pequenos projetos pessoais. Hoje, trabalho com
-                stacks modernas como <strong>React/Tailwind</strong> no front-end
-                e <strong>Ruby On Rails</strong> no back-end, sempre buscando
-                implementar as melhores práticas de desenvolvimento.
+                stacks modernas como <strong>React.js/Tailwind/Vite</strong> no
+                front-end e <strong>Ruby on Rails</strong> no back-end, sempre
+                buscando implementar as melhores práticas de desenvolvimento.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Minha filosofia combina <strong>código limpo</strong> com{" "}
@@ -136,7 +136,8 @@ const About = () => {
                     "Node.js",
                     "Tailwind",
                     "PostgreSQL",
-                    "AWS",
+                    "Ruby On Rails",
+                    "Vite",
                   ].map((tech) => (
                     <span
                       key={tech}
@@ -158,10 +159,12 @@ const About = () => {
               <div className="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
                 <h3 className="text-xl font-semibold mb-4">Além do Código</h3>
                 <ul className="space-y-3 text-gray-600">
-                  <li>🎓 Formado em Análise e Desenvolvimento de Sistemas</li>
+                  <li>
+                    🎓 Formado em Análise e Desenvolvimento de Sistemas pela
+                    Universidade Católica de Brasília
+                  </li>
                   <li>📚 Autodidata constante em novas tecnologias</li>
-                  <li>🧠 Interesses em UX Psychology e AI</li>
-                  <li>⚽ Futebol aos fins de semana</li>
+                  <li>🧠 Fluente em inglês</li>
                 </ul>
               </div>
 

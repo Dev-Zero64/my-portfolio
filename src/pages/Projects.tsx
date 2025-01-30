@@ -1,34 +1,7 @@
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
 import { ArrowRight, Github } from "lucide-react";
-
-const projects = [
-  {
-    title: "Igreja Embaixada da Rocha Viva",
-    description: "Website responsivo com interface moderna e minimalista desenvolvido para uma instituição religiosa, proporcionando aos fiéis acesso à programação, notícias atualizadas e informações sobre cultos específicos.",
-    image: "https://media.licdn.com/dms/image/v2/D4E22AQH5p3DA2Z9MXQ/feedshare-shrink_2048_1536/B4EZSZuCAGGYAo-/0/1737745772640?e=1740614400&v=beta&t=dKDgT-wYkalGMjqvvZ_fpQ2X1uwvd_lEf1uUaiLdaQ4",
-    link: "https://embaixadarochaviva.com.br",
-    tags: ["React", "Node.js", "Tailwind", "Material-UI"],
-    github: "#"
-  },
-  {
-    title: "Vita Care Plano de Saúde",
-    description: "Plataforma digital moderna para gestão de planos de saúde, oferecendo interface intuitiva para usuários e administradores com funcionalidades completas de gerenciamento.",
-    image: "https://media.licdn.com/dms/image/v2/D4E22AQHiYBht04QLyA/feedshare-shrink_2048_1536/B4EZSZvUDUGYAo-/0/1737746106826?e=1740614400&v=beta&t=_BiBFUzyLZKabRnnLCMsMHgf0J3aW2j869sXql0xQKA",
-    link: "https://vitacaresaude.vercel.app/",
-    tags: ["React", "Node.js", "Tailwind", "Material-UI"],
-    github: "#"
-  },
-  {
-    title: "Tapioca das Pretas",
-    description: "Landing page e cardapio digital para um restaurante de tapiocas, com design moderno e responsivo, proporcionando uma experiência agradável para os clientes.",
-    image: "https://media.licdn.com/dms/image/v2/D4E22AQE_rOj-qQUkWw/feedshare-shrink_2048_1536/B4EZSmqAr7HcAs-/0/1737962820113?e=1740614400&v=beta&t=D3-RNbW95x1Pr1BIyU0g8wgAQF8WMh-mIvgFj52nE7A",
-    link: "https://tapiocadaspretas.vercel.app/",
-    tags: ["React", "Node.js", "Tailwind",],
-    github: "#"
-  },
-
-];
+import { projects } from "@/lib/projects";
 
 const Projects = () => {
   return (
