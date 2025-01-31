@@ -39,7 +39,7 @@ const Index = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                Especialista em criar soluções digitais performáticas e escaláveis 
+                Apaixonado por criar soluções digitais performáticas e escaláveis 
                 utilizando tecnologias modernas como React, Node.js e Ruby on Rails.
               </motion.p>
 

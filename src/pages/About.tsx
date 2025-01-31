@@ -39,8 +39,7 @@ const About = () => {
                   Rafael Raniere de Oliveira
                 </span>
                 , Desenvolvedor Full Stack apaixonado por transformar ideias em
-                realidade digital. Especialista em ecossistema JavaScript, Ruby
-                on Rails e arquiteturas escaláveis.
+                realidade digital.
               </motion.p>
             </motion.div>
 
@@ -116,8 +115,8 @@ const About = () => {
               <p className="text-gray-600 leading-relaxed">
                 Comecei minha carreira como entusiasta de tecnologia em 2022,
                 desenvolvendo pequenos projetos pessoais. Hoje, trabalho com
-                stacks modernas como <strong>React.js/Tailwind/Vite</strong> no
-                front-end e <strong>Ruby on Rails</strong> no back-end, sempre
+                stacks modernas como <strong>React.js/Tailwind</strong> no
+                front-end e <strong>Node.js/Ruby on Rails</strong> no back-end, sempre
                 buscando implementar as melhores práticas de desenvolvimento.
               </p>
               <p className="text-gray-600 leading-relaxed">
