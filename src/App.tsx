@@ -18,7 +18,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-      <ScrollToTop />
+        <ScrollToTop />
         <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
           <Navbar />
           <Routes>

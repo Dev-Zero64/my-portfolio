@@ -33,14 +33,15 @@ const Index = () => {
                 </div>
               </motion.div>
 
-              <motion.p 
+              <motion.p
                 className="text-lg text-gray-600 leading-relaxed"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                Apaixonado por criar soluções digitais performáticas e escaláveis 
-                utilizando tecnologias modernas como React, Node.js e Ruby on Rails.
+                Apaixonado por criar soluções digitais performáticas e
+                escaláveis utilizando tecnologias modernas como React, Node.js e
+                Ruby on Rails.
               </motion.p>
 
               <motion.div
@@ -77,7 +78,7 @@ const Index = () => {
               </motion.div>
             </div>
 
-            <motion.div 
+            <motion.div
               className="relative"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -91,11 +92,13 @@ const Index = () => {
                 />
                 <div className="absolute inset-0" />
               </div>
-              
+
               <div className="absolute -bottom-4 right-8 bg-white px-4 py-2 rounded-full shadow-md">
                 <span className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                  <span className="text-sm font-medium">Disponível para projetos</span>
+                  <span className="text-sm font-medium">
+                    Disponível para projetos
+                  </span>
                 </span>
               </div>
             </motion.div>

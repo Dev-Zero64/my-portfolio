@@ -17,7 +17,8 @@ const Projects = () => {
               Meu portfólio criativo
             </h1>
             <p className="text-lg text-gray-600">
-              Projetos selecionados que demonstram minha expertise em desenvolvimento full-stack e design de interfaces
+              Projetos selecionados que demonstram minha expertise em
+              desenvolvimento full-stack e design de interfaces
             </p>
           </div>
 
@@ -29,16 +30,16 @@ const Projects = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <ProjectCard 
+                <ProjectCard
                   {...project}
                   className="group relative h-full bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden"
                 >
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  
+
                   <div className="relative p-6 h-full flex flex-col justify-end">
                     <div className="flex gap-2 mb-4">
-                      {project.tags.map(tag => (
-                        <span 
+                      {project.tags.map((tag) => (
+                        <span
                           key={tag}
                           className="px-3 py-1 bg-white/10 backdrop-blur-sm text-sm text-white rounded-full"
                         >
@@ -47,7 +48,9 @@ const Projects = () => {
                       ))}
                     </div>
 
-                    <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
+                    <h3 className="text-2xl font-bold text-white mb-2">
+                      {project.title}
+                    </h3>
                     <p className="text-gray-200 mb-4">{project.description}</p>
 
                     <div className="flex gap-4">
@@ -83,7 +86,9 @@ const Projects = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <p className="text-gray-600 mb-6">Interessado em ver mais trabalhos?</p>
+            <p className="text-gray-600 mb-6">
+              Interessado em ver mais trabalhos?
+            </p>
             <a
               href="https://wa.me/5561981353423?text="
               target="_blank"
