@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Lumi: Caderneta da Gestante",
+    description:
+      "Lumi é a primeira caderneta de pré-natal totalmente digital do Brasil. Uma startup em ascenção encabeçada por Daniel Ishida, Kauã Miguel e Fernanda Farias, este website moderno e responsivo criado com React.js foi feito para dar mais informações sobre o aplicativo disponivel gratuitamente para iOS.",
+    image: "images/lumi.png",
+    link: "https://lumi-caderneta.vercel.app/",
+    tags: ["React", "TypeScript", "Tailwind", "Vite"],
+    github: "#",
+  },
+  {
     title: "Igreja Embaixada da Rocha Viva",
     description:
       "Website responsivo com interface moderna e minimalista desenvolvido para uma instituição religiosa, proporcionando aos fiéis acesso à programação, notícias atualizadas e informações sobre cultos específicos.",
