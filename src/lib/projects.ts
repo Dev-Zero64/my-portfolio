@@ -52,7 +52,7 @@ export const projects = [
     description:
       "Um projeto React TypeScript apresentando uma galeria imobiliária bonita e responsiva com componentes de UI modernos, este projeto implementa um modal para visualização de detalhes de cada imagem da galeria.",
     image: "images/marista.png",
-    link: "https://github.com/Dev-Zero64/fluence-marista",
+    link: "https://fluence-marista.vercel.app/",
     tags: ["React", "TypeScript", "Tailwind"],
     github: "#",
   },
