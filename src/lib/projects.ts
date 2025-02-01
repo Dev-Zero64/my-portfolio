@@ -5,7 +5,16 @@ export const projects = [
       "Lumi é a primeira caderneta de pré-natal totalmente digital do Brasil. este website moderno e responsivo criado com React.js foi feito para dar mais informações sobre o aplicativo disponivel gratuitamente para iOS.",
     image: "images/lumi2.png",
     link: "https://lumi-caderneta.vercel.app/",
-    tags: ["React", "TypeScript", "Tailwind", "Vite"],
+    tags: ["React", "TypeScript", "Tailwind", "Vite", "Framer Motion"],
+    github: "#",
+  },
+  {
+    title: "Xbox Clone Website",
+    description:
+      "Uma pagina web moderna construída com React + TypeScript que replica a experiência de navegação do site do Xbox. O projeto apresenta uma interface responsiva e componentes de UI modernos.",
+    image: "images/xbox2.png",
+    link: "https://xbox-clone-react.vercel.app/",
+    tags: ["React", "TypeScript", "Tailwind", "Framer Motion"],
     github: "#",
   },
   {
@@ -39,15 +48,6 @@ export const projects = [
     github: "#",
   },
   {
-    title: "Xbox Clone Website",
-    description:
-      "Uma pagina web moderna construída com React + TypeScript que replica a experiência de navegação do site do Xbox. O projeto apresenta uma interface responsiva e componentes de UI modernos.",
-    image: "images/xbox.png",
-    link: "https://github.com/Dev-Zero64/xbox-nav-explorer",
-    tags: ["React", "TypeScript", "Tailwind"],
-    github: "#",
-  },
-  {
     title: "Fluence Marista Landing Page Clone",
     description:
       "Um projeto React TypeScript apresentando uma galeria imobiliária bonita e responsiva com componentes de UI modernos, este projeto implementa um modal para visualização de detalhes de cada imagem da galeria.",
@@ -58,7 +58,7 @@ export const projects = [
   },
 
   {
-    title: "Portfolio DevZero64",
+    title: "Meu Portfolio Pessoal",
     description:
       "Projeto de portfólio pessoal desenvolvido com React, TypeScript e Vite. Ele apresenta uma interface moderna e responsiva para exibir informações sobre o mim, meus projetos e formas de contato.",
     image: "images/portfolio.png",
