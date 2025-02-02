@@ -70,7 +70,7 @@ export const projects = [
     title: "Game Manager",
     description:
       "Projeto de gerenciamento de produtos e usuários, desenvolvido utilizando React no frontend e Node.js com Express no backend. O banco de dados utilizado é o SQLite3.",
-    image: "images/node.jpg",
+    image: "images/game.png",
     link: "https://github.com/Dev-Zero64/game-manager",
     tags: ["React", "Node.js", "Tailwind", "SQLite3", "Express"],
     github: "https://github.com/Dev-Zero64/game-manager",
