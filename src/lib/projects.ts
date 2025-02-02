@@ -6,7 +6,7 @@ export const projects = [
     image: "images/lumi2.png",
     link: "https://lumi-caderneta.vercel.app/",
     tags: ["React", "TypeScript", "Tailwind", "Vite", "Framer Motion"],
-    github: "#",
+    github: "https://github.com/Dev-Zero64/lumi-promo-site",
   },
   {
     title: "Igreja Embaixada da Rocha Viva",
@@ -16,7 +16,7 @@ export const projects = [
       "https://media.licdn.com/dms/image/v2/D4E22AQH5p3DA2Z9MXQ/feedshare-shrink_2048_1536/B4EZSZuCAGGYAo-/0/1737745772640?e=1740614400&v=beta&t=dKDgT-wYkalGMjqvvZ_fpQ2X1uwvd_lEf1uUaiLdaQ4",
     link: "https://embaixadarochaviva.com.br",
     tags: ["React", "Node.js", "Tailwind", "Material-UI", "Vite"],
-    github: "#",
+    github: "https://github.com/Dev-Zero64/embaixadarochaviva",
   },
   {
     title: "Vita Care Plano de Saúde",
@@ -26,7 +26,7 @@ export const projects = [
       "https://media.licdn.com/dms/image/v2/D4E22AQHiYBht04QLyA/feedshare-shrink_2048_1536/B4EZSZvUDUGYAo-/0/1737746106826?e=1740614400&v=beta&t=_BiBFUzyLZKabRnnLCMsMHgf0J3aW2j869sXql0xQKA",
     link: "https://vitacaresaude.vercel.app/",
     tags: ["React", "Node.js", "Tailwind", "Material-UI", "Vite"],
-    github: "#",
+    github: "https://github.com/Dev-Zero64/vita-care",
   },
   {
     title: "Tapioca das Pretas",
@@ -36,7 +36,7 @@ export const projects = [
       "https://media.licdn.com/dms/image/v2/D4E22AQE_rOj-qQUkWw/feedshare-shrink_2048_1536/B4EZSmqAr7HcAs-/0/1737962820113?e=1740614400&v=beta&t=D3-RNbW95x1Pr1BIyU0g8wgAQF8WMh-mIvgFj52nE7A",
     link: "https://tapiocadaspretas.vercel.app/",
     tags: ["React", "Node.js", "Tailwind", "Vite"],
-    github: "#",
+    github: "https://github.com/Dev-Zero64/tapioca-das-pretas",
   },
   {
     title: "Fluence Marista Landing Page Clone",
@@ -45,7 +45,7 @@ export const projects = [
     image: "images/marista.png",
     link: "https://fluence-marista.vercel.app/",
     tags: ["React", "TypeScript", "Tailwind"],
-    github: "#",
+    github: "https://github.com/Dev-Zero64/fluence-marista",
   },
   {
     title: "Xbox Clone Website",
@@ -54,16 +54,16 @@ export const projects = [
     image: "images/xbox2.png",
     link: "https://xbox-clone-react.vercel.app/",
     tags: ["React", "TypeScript", "Tailwind", "Framer Motion"],
-    github: "#",
+    github: "https://github.com/Dev-Zero64/xbox-nav-explorer",
   },
   {
     title: "Meu Portfolio Pessoal",
     description:
       "Projeto de portfólio pessoal desenvolvido com React, TypeScript e Vite. Ele apresenta uma interface moderna e responsiva para exibir informações sobre o mim, meus projetos e formas de contato.",
     image: "images/portfolio.png",
-    link: "https://github.com/Dev-Zero64/my-portfolio",
+    link: "https://rafaelraniereoliveira.vercel.app/",
     tags: ["React", "TypeScript", "Tailwind", "Vite"],
-    github: "#",
+    github: "https://github.com/Dev-Zero64/my-portfolio",
   },
 
   {
@@ -73,7 +73,7 @@ export const projects = [
     image: "images/node.jpg",
     link: "https://github.com/Dev-Zero64/game-manager",
     tags: ["React", "Node.js", "Tailwind", "SQLite3", "Express"],
-    github: "#",
+    github: "https://github.com/Dev-Zero64/game-manager",
   },
   {
     title: "Painel de Administrador Embaixada Rocha Viva",
@@ -82,6 +82,6 @@ export const projects = [
     image: "images/ruby.jpg",
     link: "https://github.com/Dev-Zero64/admin-panel-embaixadarochaviva",
     tags: ["Ruby on Rails", "Bootstrap", "PostgreSQL"],
-    github: "#",
+    github: "https://github.com/Dev-Zero64/admin-panel-embaixadarochaviva",
   },
 ];

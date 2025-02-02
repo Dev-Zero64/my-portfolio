@@ -40,8 +40,8 @@ const Index = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 Apaixonado por criar soluções digitais performáticas e
-                escaláveis utilizando tecnologias modernas como React, Node.js e
-                Ruby on Rails.
+                escaláveis utilizando tecnologias modernas como TypeScript,
+                React.js, Node.js, Express.js e PostgreSQL.
               </motion.p>
 
               <motion.div

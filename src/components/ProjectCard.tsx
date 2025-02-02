@@ -1,5 +1,6 @@
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, GithubIcon } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Github } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
@@ -7,9 +8,17 @@ interface ProjectCardProps {
   image: string;
   link: string;
   tags: string[];
+  github: string;
 }
 
-const ProjectCard = ({ title, description, image, link, tags }: ProjectCardProps) => {
+const ProjectCard = ({
+  title,
+  description,
+  image,
+  link,
+  tags,
+  github,
+}: ProjectCardProps) => {
   return (
     <div className="group relative rounded-xl overflow-hidden bg-white shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in">
       <div className="aspect-video w-full overflow-hidden">
@@ -34,11 +43,21 @@ const ProjectCard = ({ title, description, image, link, tags }: ProjectCardProps
         </div>
         <Link
           to={link}
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
         >
           Ver projeto <ExternalLink size={16} />
         </Link>
+        <Link
+          to={github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-5 inline-flex gap-2 text-blue-600 hover:text-blue-700 transition-colors"
+        >
+          Ver codigo fonte <GithubIcon />
+        </Link>
+        
       </div>
     </div>
   );
