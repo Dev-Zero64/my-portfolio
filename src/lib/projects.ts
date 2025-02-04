@@ -52,7 +52,7 @@ export const projects = [
     description:
       "Uma pagina web moderna construída com React + TypeScript que replica a experiência de navegação do site do Xbox. O projeto apresenta uma interface responsiva e componentes de UI modernos.",
     image: "images/xbox2.png",
-    link: "https://github.com/Dev-Zero64/xbox-nav-explorer",
+    link: "https://projecto6videogame.vercel.app/",
     tags: ["React", "TypeScript", "Tailwind", "Framer Motion"],
     github: "https://github.com/Dev-Zero64/xbox-nav-explorer",
   },
