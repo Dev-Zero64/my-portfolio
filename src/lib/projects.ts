@@ -84,4 +84,13 @@ export const projects = [
     tags: ["Ruby on Rails", "Bootstrap", "PostgreSQL"],
     github: "https://github.com/Dev-Zero64/admin-panel-embaixadarochaviva",
   },
+  {
+    title: "Painel de Gestão de Igreja",
+    description:
+      "Sistema de gerenciamento de membros, celulas, eventos e gestão financeira para igrejas este é um web app completo com autenticação e banco de dados PostgreSQL, feito com React.js, Tailwind.css, TypeScript e Supabase.",
+    image: "images/gestao.png",
+    link: "https://github.com/Dev-Zero64/faith",
+    tags: ["TypeScript", "PostgreSQL", "Supabase", "React.js"],
+    github: "https://github.com/Dev-Zero64/faith",
+  },
 ];
